@@ -1,3 +1,6 @@
 [submodule "open890"]
 	path = open890
 	url = git@github.com:tonyc/open890.git
+[submodule "open890_ui"]
+	path = open890_ui
+	url = git@github.com:tonyc/open890.git
