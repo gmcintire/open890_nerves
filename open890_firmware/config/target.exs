@@ -1,5 +1,7 @@
 import Config
 
+import_config "../../open890_ui/config/config.exs"
+
 # Use shoehorn to start the main application. See the shoehorn
 # docs for separating out critical OTP applications such as those
 # involved with firmware updates.
@@ -68,7 +70,7 @@ config :mdns_lite,
   # "nerves.local" for convenience. If more than one Nerves device is on the
   # network, delete "nerves" from the list.
 
-  host: [:hostname, "nerves"],
+  host: [:hostname, "open890"],
   ttl: 120,
 
   # Advertise the following services over mDNS.

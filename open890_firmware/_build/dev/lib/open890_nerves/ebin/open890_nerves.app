@@ -1,0 +1,9 @@
+{application,open890_nerves,
+             [{applications,[kernel,stdlib,elixir,logger,runtime_tools,
+                             open890,shoehorn,ring_logger,toolshed]},
+              {description,"open890_nerves"},
+              {modules,['Elixir.Open890Nerves',
+                        'Elixir.Open890Nerves.Application']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Open890Nerves.Application',[]}}]}.

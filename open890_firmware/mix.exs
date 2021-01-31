@@ -30,6 +30,7 @@ defmodule Open890Nerves.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:open890, path: "../open890_ui"},
       # Dependencies for all targets
       {:nerves, "~> 1.7.0", runtime: false},
       {:shoehorn, "~> 0.7.0"},

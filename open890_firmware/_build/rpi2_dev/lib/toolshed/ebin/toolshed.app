@@ -1,0 +1,11 @@
+{application,toolshed,
+             [{applications,[kernel,stdlib,elixir,iex]},
+              {description,"Use Toolshed for path completion and more helpers for IEx"},
+              {modules,['Elixir.Toolshed','Elixir.Toolshed.Autocomplete',
+                        'Elixir.Toolshed.HTTP','Elixir.Toolshed.HW',
+                        'Elixir.Toolshed.Lsof','Elixir.Toolshed.Misc',
+                        'Elixir.Toolshed.Multicast','Elixir.Toolshed.Nerves',
+                        'Elixir.Toolshed.Net','Elixir.Toolshed.Top',
+                        'Elixir.Toolshed.Unix']},
+              {registered,[]},
+              {vsn,"0.2.18"}]}.
